@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <title>Edu Track</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <header>
+          <div class="image-header scale">
+            <img src="../../assets/icons/Logo.svg" alt="Logo Edu Track" />
+          </div>
+          <div class="text-header">
+            <h1 class="scale">Edu Track</h1>
+            <p class="scale">"Organize, Aprenda, Evolua"</p>
+          </div>
+        </header>
+        <nav>
+          <ul>
+            <li class="scale active">
+              <a href="../../index.html">
+                <img
+                  src="../../assets/icons/Dashboard.svg"
+                  alt="Dashboard Icon"
+                />
+                <p>Dashboard</p>
+              </a>
+            </li>
+            <li class="scale">
+              <a href="../students/students.html">
+                <img
+                  src="../../assets/icons/Students.svg"
+                  alt="Students Icon"
+                />
+                <p>Alunos</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+    <main class="dashboard-container">
+      <section class="dashboard-header">
+        <h2>📈 Dashboard Acadêmico</h2>
+        <p>Visão geral do sistema de gerenciamento de alunos</p>
+      </section>
+
+      <section class="stats-grid">
+        <div class="card">
+          <div class="icon blue">👥</div>
+          <h3>Total de Alunos</h3>
+          <h1>3</h1>
+          <p>Alunos cadastrados</p>
+        </div>
+
+        <div class="card">
+          <div class="icon green">📘</div>
+          <h3>Cursos Ativos</h3>
+          <h1>3</h1>
+          <p>Diferentes cursos</p>
+        </div>
+
+        <div class="card">
+          <div class="icon purple">🏫</div>
+          <h3>Instituições</h3>
+          <h1>1</h1>
+          <p>Instituições parceiras</p>
+        </div>
+
+        <div class="card">
+          <div class="icon orange">📅</div>
+          <h3>Anos Letivos</h3>
+          <h1>3</h1>
+          <p>Diferentes anos</p>
+        </div>
+      </section>
+
+      <section class="charts">
+        <div class="chart">
+          <h3>🎓 Distribuição por Curso</h3>
+          <div class="bar">
+            <span>Análise e Desenvolvimento de Sistemas</span>
+            <div class="progress">
+              <div class="fill blue" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+
+          <div class="bar">
+            <span>Gestão da Tecnologia da Informação</span>
+            <div class="progress">
+              <div class="fill green" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+
+          <div class="bar">
+            <span>Sistemas para Internet</span>
+            <div class="progress">
+              <div class="fill purple" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+        </div>
+
+        <div class="chart">
+          <h3>📆 Distribuição por Ano</h3>
+          <div class="bar">
+            <span>1º ano</span>
+            <div class="progress">
+              <div class="fill green" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+
+          <div class="bar">
+            <span>2º ano</span>
+            <div class="progress">
+              <div class="fill blue" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+
+          <div class="bar">
+            <span>3º ano</span>
+            <div class="progress">
+              <div class="fill purple" style="width: 33.3%"></div>
+            </div>
+            <p>33.3% - 1 aluno</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+    <script type="module" src="../../js/dashboard.js"></script>
+</html>
